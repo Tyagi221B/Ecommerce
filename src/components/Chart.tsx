@@ -85,7 +85,7 @@ export const BarChart = ({
         label: title_1,
         data: data_1,
         backgroundColor: bgColor_1,
-        barThickness: "flex",
+        barThickness: "flex", 
         barPercentage: 1,
         categoryPercentage: 0.4,
       },

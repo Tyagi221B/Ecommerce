@@ -29,19 +29,19 @@ const SubSectionOne = ({ location }: { location: Location }) => (
 				text="Dashboard"
 			/>
 			<Li
-				url="/adim/products"
+				url="/admin/products"
 				Icon={RiShoppingBag3Fill}
 				location={location}
 				text="Product"
 			/>
 			<Li
-				url="/adim/Customer"
+				url="/admin/customers"
 				Icon={IoIosPeople}
 				location={location}
-				text="Customer"
+				text="Customers"
 			/>
 			<Li
-				url="/adim/transaction"
+				url="/admin/transaction"
 				Icon={AiFillFileText}
 				location={location}
 				text="Transaction"
