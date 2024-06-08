@@ -1,5 +1,5 @@
 import { useState, ChangeEvent, FormEvent } from "react";
-import AdminSidebar from "../../components/AdminSidebar";
+import AdminSidebar from "../../../components/admin/AdminSidebar";
 
 const img =
 "https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw4d14420d/images/hi-res/51D3A1DEBABA00_1.jpg"

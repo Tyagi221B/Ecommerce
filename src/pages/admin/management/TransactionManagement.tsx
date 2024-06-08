@@ -1,6 +1,6 @@
 import { useState } from "react";
-import AdminSidebar from "../../components/AdminSidebar";
-import { OrderItemType, OrderType } from "../../types";
+import AdminSidebar from "../../../components/admin/AdminSidebar";
+import { OrderItemType, OrderType } from "../../../types";
 import { Link } from "react-router-dom";
 
 const img =
@@ -18,10 +18,10 @@ const orderItems: OrderItemType[] = [
 
 const TransactionManagement = () => {
   const [order, setOrder] = useState<OrderType>({
-    name: "Abhishek Singh",
+    name: "Asmit Tyagi",
     address: "77 Black Street",
-    city: "Neyword",
-    state: "Nevada",
+    city: "Roorkee",
+    state: "Uttarakhand",
     country: "India",
     pinCode: 2434341,
     status: "Processing",

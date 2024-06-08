@@ -1,13 +1,13 @@
-import AdminSidebar from "../components/AdminSidebar"
+import AdminSidebar from "../../components/admin/AdminSidebar"
 import { BsSearch } from "react-icons/bs";
 import { FaRegBell } from "react-icons/fa";
-import userImg from "../assets/userpic.png";
-import { WidgetItem } from "../components/WidgetContainer";
-import { BarChart, DoughnutChart } from "../components/Chart";
-import { CategoryItem } from "../components/CategoryItem";
-import data from "../assets/data.json";
+import userImg from "../../assets/userpic.png";
+import { WidgetItem } from "../../components/admin/WidgetContainer";
+import { BarChart, DoughnutChart } from "../../components/admin/Chart";
+import { CategoryItem } from "../../components/admin/CategoryItem";
+import data from "../../assets/data.json";
 import { BiMaleFemale } from "react-icons/bi";
-import Table from "../components/DashboardTable";
+import Table from "../../components/admin/DashboardTable";
 
 
 
