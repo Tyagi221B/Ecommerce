@@ -74,13 +74,13 @@ const SubSectionOne = ({ location }: { location: Location }) => (
 				text="Dashboard"
 			/>
 			<Li
-				url="/admin/products"
+				url="/admin/product"
 				Icon={RiShoppingBag3Fill}
 				location={location}
 				text="Product"
 			/>
 			<Li
-				url="/admin/customers"
+				url="/admin/customer"
 				Icon={IoIosPeople}
 				location={location}
 				text="Customers"

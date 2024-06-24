@@ -1,5 +1,6 @@
 import { FaPlus } from "react-icons/fa";
 import { CartItem } from "../types/types";
+import { server } from "../redux/store";
 
 type ProductsProps = {
   productId: string;
@@ -10,7 +11,6 @@ type ProductsProps = {
   handler: (cartItem: CartItem) => string | undefined;
 };
 
-// const server = "mongodb://localhost";
 
 const ProductCard = ({
   productId,
@@ -22,7 +22,7 @@ const ProductCard = ({
 }: ProductsProps) => {
   return (
     <div className="product-card">
-      <img src={photo} alt={name} />
+      <img src={`${server}/${photo}`} alt={name} />
       <p>{name}</p>
       <span>₹{price}</span>
 
