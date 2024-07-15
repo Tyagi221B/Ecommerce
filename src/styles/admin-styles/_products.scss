@@ -42,7 +42,7 @@
 
     > img {
       @include square(100%);
-      object-fit: cover;
+      object-fit: cover;  
     }
 
     > strong {
@@ -86,7 +86,7 @@
         @include square(5rem);
         object-fit: cover;
         border-radius: 5px;
-      }
+      }//////
 
       > div {
         width: 100%;
